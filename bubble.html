@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+
+setInterval(function () {
+	  $('.notice').fadeIn(1000).delay(1000).fadeOut(1000).delay(1000).fadeIn(1000);
+	 },1000);
+	setInterval(function () {
+	  $('.notice2').fadeIn(1000).delay(1000).fadeOut(1000).delay(1000).fadeIn(1000);
+	 }, 2000);
+	setInterval(function () {
+	  $('.notice3').fadeIn(1000).delay(1000).fadeOut(1000).delay(1000).fadeIn(1000);
+	 }, 3000);
+</script>
+
+<style type="text/css">
+.notice {
+  display: none;
+  height: 50px;
+  width: 50px;
+  background-color:red;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 110px;
+  left: 145px;
+}	
+.notice2 {
+  display: none;
+  height: 100px;
+  width: 100px;
+  background-color:blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 140px;
+  left: 175px;
+  
+
+}	
+.notice3 {
+  display: none;
+  height: 150px;
+  width: 150px;
+  background-color:green;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 190px;
+  left: 250px;
+}		
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+<p class="notice"></p>
+<p class="notice2"></p>
+<p class="notice3"></p>
+</body>
+</html>
